@@ -1,2 +1,11 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
+
+@theme {
+    --font-display: "Inter", "sans-serif";
+    --color-primary: #FF5F00;
+    --color-primary-hover: #FA6E1B;
+    --color-secondary: #078691;
+    --color-gray: #B4B4B4;
+    --color-gray-hover: #C7C5C5;
+}

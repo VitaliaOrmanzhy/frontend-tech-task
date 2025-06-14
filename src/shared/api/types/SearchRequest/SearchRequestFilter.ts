@@ -11,3 +11,5 @@ export interface SearchRequestOptions extends SearchRequestFilterBase {
 }
 
 export type SearchRequestFilter = SearchRequestOptions[]
+
+export type OnFilterChange = (filterId: string, optionId: string) => void

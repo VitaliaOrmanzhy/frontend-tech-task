@@ -1,1 +1,8 @@
-{}
+{
+	"title": "Filter",
+	"apply-label": "Apply",
+	"reset-label": "Clear all parametrs",
+	"confirm-title": "Do you want to apply new filter?",
+	"confirm-label": "Apply new filter",
+	"cancel-label": "Use old filter"
+}
