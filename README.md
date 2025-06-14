@@ -1,56 +1,18 @@
 # WinWinTravel
 
-## Task
+This is a completed test task for WinWinTravel. The main aim was to create filters manager modal.
 
-### What needs to be done
+## Technologies
 
-The API provides filter data located in the file `filterData.json`
+React
+Typescript
+React-query
+Zustand
+i18n
+tailwindcss
 
-Based on this data, create a filter modal window — [Figma design](https://www.figma.com/file/cnBVURUTntc8peGEfKexoY/WWT-Test-task?type=design&node-id=0%3A1&mode=design&t=GZ0EY5BJ6KB7iy02-1)
-
-The design should closely follow the layout. If indentations differ slightly in the layout — make them consistent across the modal
-
-The modal window should be opened via a button on the homepage
-
-When opening the filter modal, if the user has already selected some data previously, it should be pre-filled in the modal
-
-The user should be able to modify the data and click the `Apply` button. This action should open a confirmation dialog
-
-- If the user confirms the changes — the selected data should be saved to the global state (`App`)
-- If the user cancels — keep the previously saved data without applying the new changes
-
-Display the current selected filter data on the homepage in JSON format (no design required, just for debug/visibility)
-
-The project must include a GitHub Action that automatically checks the code
-
-Types:
-
-- `FilterItem` — input data format from API / `filterData.json`
-- `SearchRequestFilter` — output data format to be displayed on the homepage
-
-### What technologies to use
-
-Required:
-
-- Git with `Conventional Commits`
-- Semantic HTML layout
-- React
-- react-query
-- tailwindcss
-- i18n
-- zustand
-
-You may use other technologies already installed in the project, or install additional ones if needed
-
-If you install any new technology, describe why you added it and what it’s used for in some file
-
-### How to submit the task
-
-- Create a **public** copy(not fork) of the repository, preserving the full commit history
-- Complete the task in this private repository
-- Inform HR that the task is complete and ready for review
-
-Also, please let us know upfront whether you would like detailed feedback (what exactly was wrong and a score), or if a simple acceptance or rejection response is sufficient
+clsx - I used it to conditionally combine CSS class names in my components.
+react-loader-spinner - I used react-loader-spinner to display loading indicators during asynchronous operations
 
 ## How to set up the project
 
