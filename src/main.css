@@ -2,10 +2,10 @@
 @import 'tw-animate-css';
 
 @theme {
-    --font-display: "Inter", "sans-serif";
-    --color-primary: #FF5F00;
-    --color-primary-hover: #FA6E1B;
-    --color-secondary: #078691;
-    --color-gray: #B4B4B4;
-    --color-gray-hover: #C7C5C5;
+	--font-display: 'Inter', 'sans-serif';
+	--color-primary: #ff5f00;
+	--color-primary-hover: #fa6e1b;
+	--color-secondary: #078691;
+	--color-gray: #b4b4b4;
+	--color-gray-hover: #c7c5c5;
 }
